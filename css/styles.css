@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/bg2.png") center;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    /*text-shadow: 0 0 10px rgba(255, 255, 255, 0.24);*/
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.main {
+    padding: 100px 0 100px 0;
+    margin: 40px 40px 200px 40px;
+}
+
+.container.container-main {
+    display: flex;
+    align-content: center;
+}
+
+.contacts {
+    display: inline-block;
+}
+
+.file {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.file a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info-text p {
+    text-align: center;
+}
